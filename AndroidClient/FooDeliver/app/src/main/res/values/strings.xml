@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">FooDeliver</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in_customer">Sign in As Customer</string>
+    <string name="action_sign_in_restaurant">Sign in As Restaurant</string>
+    <string name="action_customer_register">Create Customer Account Now</string>
+    <string name="action_restaurant_register">Create Restaurant Account Now</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="register_account_string">Create a Customer Account</string>
+    <string name="register_restaurant_account_string">Create a Restaurant Account</string>
+    <string name="register_email_string">E-mail: </string>
+    <string name="register_password_string">Password: </string>
+    <string name="register_confirm_password_string">Confirm Password: </string>
+    <string name="register_card_string">Card: </string>
+    <string name="register_address_string">Address: </string>
+    <string name="submit">Submit</string>
+    <string name="register_name_string">Restaurant Name: </string>
+    <string name="register_phone_string">Phone Number: </string>
+    <string name="register_location_string">Location: </string>
+    <string name="register_category_string">Category: </string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_restaurant_register">RestaurantRegisterActivity</string>
+    <string name="title_activity_customer_register">CustomerRegisterActivity</string>
+    <string name="title_activity_restaurant">RestaurantActivity</string>
+
+    <string name="title_activity_myorder">My Orders</string>
+    <string name="order_number_string">Order</string>
+    <string name="restaurant_string">Restaurant</string>
+    <string name="status_string">Status</string>
+
+
+    <string name="restaurant_sample">Little Asia</string>
+    <string name="restaurant_address_sample">Address: 301 South Craig Street #2</string>
+    <string name="restaurant_contact_sample">Contact: (412) 622-0133</string>
+
+    <string name="id_string">ID</string>
+    <string name="name_string">Name</string>
+    <string name="picture_string">Picture</string>
+    <string name="price_string">Price</string>
+    <string name="quantity_string">Quantity</string>
+    <string name="date_string">Date</string>
+
+    <string name="menu_number_string">Menu</string>
+    <string name="menu_price">Price</string>
+    <string name="menu_name">Name</string>
+    <string name="menu_pic">Picture</string>
+
+    <string name="title_customer_profile">Customer Profile</string>
+
+    <string name="button_cancel_order">Cancel</string>
+    <string name="button_confirm_order">Confirm</string>
+
+    <string name="search_string">Search</string>
+    <string name="category_string">Category</string>
+    <string name="location_string">Location</string>
+
+    <string name="title_restaurant_details">Restaurant Details</string>
+    <string name="title_profile_details">Profile Details</string>
+
+    <string name="button_add_string">Add</string>
+    <string name="button_update_string">Update</string>
+    <string name="button_delete_string">Delete</string>
+    <string name="button_edit_string">Edit</string>
+    <string name="button_save_string">Save</string>
+    <string name="title_activity_place_order">PlaceOrderActivity</string>
+
+    <string-array name="location">
+        <item>All</item>
+        <item>ShadySide</item>
+        <item>Squirrel Hill</item>
+        <item>North Oakland</item>
+        <item>South Oakland</item>
+    </string-array>
+
+    <string-array name="location_register">
+        <item>ShadySide</item>
+        <item>Squirrel Hill</item>
+        <item>North Oakland</item>
+        <item>South Oakland</item>
+    </string-array>
+
+    <string-array name="category">
+        <item>All</item>
+        <item>American</item>
+        <item>Chinese</item>
+        <item>Indian</item>
+        <item>Mexican</item>
+        <item>Japanese</item>
+        <item>Korean</item>
+        <item>Franch</item>
+    </string-array>
+
+    <string-array name="category_register">
+        <item>American</item>
+        <item>Chinese</item>
+        <item>Indian</item>
+        <item>Mexican</item>
+        <item>Japanese</item>
+        <item>Korean</item>
+        <item>Franch</item>
+    </string-array>
+
+    <string-array name="payment">
+        <item>Online</item>
+        <item>Offline</item>
+    </string-array>
+
+    <string-array name="quantity">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:layout_marginTop="20dp"
+        android:background="#8bdca0">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="@string/order_number_string"
+            android:id="@+id/orderlabel"
+            android:textSize="25sp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="65dp"
+            android:paddingLeft="0dp"
+            android:textColor="#010101"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@string/date_string"
+            android:id="@+id/datelabel"
+            android:textSize="25sp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="50dp"
+            android:paddingLeft="0dp"
+            android:textColor="#010101"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@string/price_string"
+            android:id="@+id/pricelabel"
+            android:textSize="25sp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="90dp"
+            android:paddingLeft="0dp"
+            android:textColor="#010101"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/status_string"
+            android:id="@+id/textView"
+            android:textSize="25sp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="50dp"
+            android:paddingLeft="0dp"
+            android:textColor="#010101"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="true"
+        android:layout_marginTop="40dp"
+        android:weightSum="1">
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:id="@android:id/list"
+            android:layout_below="@+id/spinnerLocation"
+            android:layout_marginTop="35dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="7.17" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.05"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="150dp">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Accept"
+            android:id="@+id/accept_button"
+            android:layout_marginLeft="120dp"
+            android:background="#2E7D32"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Deliver"
+            android:id="@+id/deliver_button"
+            android:layout_marginLeft="150dp"
+            android:background="#2E7D32"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+
+</LinearLayout>

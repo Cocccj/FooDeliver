@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="jiaqiz.cmu.edu.foodeliver.login.CustomerRegisterActivity"
+    tools:showIn="@layout/login_activity_customer_register">
+
+    <TextView
+        android:id="@+id/register_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register_account_string"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="80dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/register_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register_email_string"
+        android:textSize="20sp"
+        android:layout_below="@+id/register_account"
+        android:layout_marginTop="60dp"
+        android:textColor="#000000"/>
+    <EditText
+        android:id="@+id/register_email_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minEms="30"
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/register_account"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/register_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_password_string"
+        android:textSize="20sp"
+        android:layout_below="@+id/register_email"
+        android:layout_marginTop="50dp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/register_password_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minEms="30"
+        android:inputType="textPassword"
+        android:layout_below="@+id/register_email_text"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/register_confirm_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_confirm_password_string"
+        android:textSize="20sp"
+        android:layout_below="@+id/register_password"
+        android:layout_marginTop="50dp"
+        android:textColor="#000000"/>
+    <EditText
+        android:id="@+id/register_confirm_password_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minEms="30"
+        android:inputType="textPassword"
+        android:layout_below="@+id/register_password_text"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/register_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_card_string"
+        android:textSize="20sp"
+        android:layout_below="@+id/register_confirm_password"
+        android:layout_marginTop="50dp"
+        android:textColor="#000000"/>
+    <EditText
+        android:id="@+id/register_card_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:minEms="40"
+        android:layout_below="@+id/register_confirm_password_text"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/register_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_address_string"
+        android:textSize="20sp"
+        android:layout_below="@+id/register_card"
+        android:layout_marginTop="50dp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/register_address_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minEms="40"
+        android:layout_below="@+id/register_card_text"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/register_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_phone_string"
+        android:textSize="20sp"
+        android:layout_below="@+id/register_address"
+        android:layout_marginTop="50dp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/register_phone_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minEms="40"
+        android:inputType="phone"
+        android:layout_below="@+id/register_address_text"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/register_submit_customer_button"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="@string/submit"
+        android:textStyle="bold"
+        android:background="#2E7D32"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/register_phone"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

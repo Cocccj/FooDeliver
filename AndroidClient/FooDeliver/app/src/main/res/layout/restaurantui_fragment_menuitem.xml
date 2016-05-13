@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <CheckBox
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="@string/menu_number_string"
+        android:textSize="20sp"
+        android:layout_marginStart="50dp"
+        android:id="@+id/menuNumberBox"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:text="@string/menu_name"
+        android:id="@+id/menu_name"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_marginTop="10dp"
+        android:layout_alignTop="@id/menuNumberBox"
+        android:layout_toEndOf="@id/menuNumberBox"
+        android:layout_marginStart="60dp"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="@string/menu_price"
+        android:id="@+id/m_price"
+        android:textSize="20sp"
+        android:layout_marginStart="40dp"
+        android:textColor="#000000"
+        android:layout_alignTop="@+id/menu_name"
+        android:layout_toEndOf="@+id/menu_name" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:id="@+id/menu_pic"
+        android:layout_marginStart="10dp"
+        android:layout_alignTop="@+id/m_price"
+        android:layout_toEndOf="@+id/m_price" />
+
+
+</RelativeLayout>

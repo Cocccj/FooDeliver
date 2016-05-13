@@ -1,0 +1,292 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="400dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="0dp">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:text="Sichuan Gourmet"
+                android:id="@+id/resName"
+                android:textStyle="bold"
+                android:textSize="35dp"
+                android:textColor="#2E7D32"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:paddingTop="15dp" />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:text="sichuangourment@gmail.com"
+                android:id="@+id/resId"
+                android:layout_marginLeft="30dp"
+                android:textSize="20dp"
+                android:textStyle="normal"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/res_picture"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="50dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="600dp"
+        android:layout_height="500dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/back_pic"
+        android:weightSum="1"
+        android:id="@+id/resPic">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0"
+            android:layout_marginTop="45dp">
+
+            <TextView
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:text="@string/title_restaurant_details"
+                android:id="@+id/textView12"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="#2E7D32"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="70dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category: "
+                android:id="@+id/textViewCategory"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="75dp"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/resCategory"
+                android:textColor ="@drawable/edit_text_selector"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address: "
+                android:id="@+id/textView10"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="75dp"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/resAddress"
+                android:textColor ="@drawable/edit_text_selector"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location: "
+                android:id="@+id/textView11"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="75dp"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/resLocation"
+                android:textColor ="@drawable/edit_text_selector"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="45dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone: "
+                android:id="@+id/textViewPhone"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="75dp"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/resPhone"
+                android:textColor ="@drawable/edit_text_selector"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Picture: "
+                android:id="@+id/picture"
+                android:layout_marginLeft="75dp"
+                android:textSize="20dp"
+                android:textColor="#000000" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pic_url"
+                android:layout_weight="0"
+                android:textColor ="@drawable/edit_text_selector"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="0"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:text="@string/title_profile_details"
+                android:id="@+id/textView13"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="#2E7D32"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="70dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Card Number: "
+                android:id="@+id/TextViewCard"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="75dp"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:layout_weight="0" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/resCard"
+                android:textColor ="@drawable/edit_text_selector"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/TextViewPwd"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="75dp"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Password: " />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/resPassword"
+                android:layout_weight="0"
+                android:textColor ="@drawable/edit_text_selector"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EDIT"
+            android:id="@+id/editButton"
+            android:background="#2E7D32"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SAVE"
+            android:id="@+id/saveButton"
+            android:background="#2E7D32"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,178 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".customerui.CustomerProfileFragment">
+
+    <TextView
+        android:id="@+id/register_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_customer_profile"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/register_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register_email_string"
+        android:textSize="20sp"
+        android:layout_below="@+id/register_account"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/register_email_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minEms="30"
+        android:textSize="20sp"
+        android:layout_below="@+id/register_account"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/register_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_password_string"
+        android:textSize="20sp"
+        android:layout_below="@+id/register_email"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/register_password_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minEms="20"
+        android:layout_below="@+id/register_email_text"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="12dp"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:enabled="false" />
+
+    <TextView
+        android:id="@+id/register_confirm_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_confirm_password_string"
+        android:textSize="20sp"
+        android:layout_below="@+id/register_password"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/register_confirm_password_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minEms="15"
+        android:layout_below="@+id/register_password_text"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="15dp"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:enabled="false" />
+
+    <TextView
+        android:id="@+id/register_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_card_string"
+        android:textSize="20sp"
+        android:layout_below="@+id/register_confirm_password"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/register_card_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_confirm_password_text"
+        android:minEms="22"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:textSize="20sp"
+        android:enabled="false" />
+
+    <TextView
+        android:id="@+id/register_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_address_string"
+        android:textSize="20sp"
+        android:layout_below="@+id/register_card"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/register_address_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_card_text"
+        android:layout_marginLeft="170dp"
+        android:minEms="20"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:enabled="false" />
+
+    <TextView
+        android:id="@+id/register_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_phone_string"
+        android:textSize="20sp"
+        android:layout_below="@+id/register_address"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/register_phone_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_address_text"
+        android:layout_marginLeft="230dp"
+        android:minEms="20"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/customer_edit_button"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_edit_string"
+        android:textStyle="bold"
+        android:background="#2E7D32"
+        android:textColor="#ffffff"
+        android:layout_marginTop="122dp"
+        android:layout_below="@+id/register_address_text"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/customer_save_button"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_save_string"
+        android:textStyle="bold"
+        android:background="#2E7D32"
+        android:textColor="#ffffff"
+        android:layout_alignTop="@+id/customer_edit_button"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="75dp" />
+
+</RelativeLayout>
