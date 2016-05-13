@@ -1,7 +1,7 @@
 -- Create Database --
-CREATE DATABASE FooDelivery;
+CREATE DATABASE FooDeliver;
 
-USE FooDelivery
+USE FooDeliver
 
 DROP TABLE IF EXISTS ORDERITEM;
 DROP TABLE IF EXISTS ORDERTABLE;
