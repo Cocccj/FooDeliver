@@ -8,16 +8,16 @@ My parts:
 
 Sample Screen(Test device: Nexus 7 API 23):
 
-1. Welcome Page
+<1> Welcome Page
 
-<img src="/imgs/1.png" alt="Welcome page" style="width:50;height:150">
+<img src="/imgs/1.png" height="48" width="48">
 
-2. Register Sample
+<2> Register Sample
 
 ![Alt text](/imgs/2.png?raw=true)
 
 
-3. Customer Login - Resraurant search page
+<3> Customer Login - Resraurant search page
 
 ![Alt text](/imgs/3.png?raw=true)
 
@@ -40,22 +40,22 @@ Search sushifuku:
 Customers can click one restaurant in the list to go to the place order page.
 
 
-4. Place Order Page
+<4> Place Order Page
 
 ![Alt text](/imgs/4.png?raw=true)
 
 
-5. Order Management (Customer)
+<5> Order Management (Customer)
 
 ![Alt text](/imgs/5.png?raw=true)
 
 
-6. Profile Management (Customer)
+<6> Profile Management (Customer)
 
 ![Alt text](/imgs/6.png?raw=true)
 
 
-7. Order Management (Restaurant)
+<7> Order Management (Restaurant)
 
 ![Alt text](/imgs/7-1.png?raw=true)
 
@@ -67,12 +67,12 @@ Order details:
 ![Alt text](/imgs/7-3.png?raw=true)
 
 
-8. Menu Management (Restaurant)
+<8> Menu Management (Restaurant)
 
 ![Alt text](/imgs/8.png?raw=true)
 
 
-9. Profile Management (Restaurant)
+<9> Profile Management (Restaurant)
 
 ![Alt text](/imgs/9.png?raw=true)
 
