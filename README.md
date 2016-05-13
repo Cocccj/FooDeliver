@@ -10,8 +10,7 @@ Sample Screen(Test device: Nexus 7 API 23):
 
 1. Welcome Page
 
-![Alt text](/imgs/1.png?raw=true)
-
+<img src="/imgs/1.png?raw=true" alt="Welcome page" style="width:100;height:300">
 
 2. Register Sample
 
