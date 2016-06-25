@@ -6,10 +6,10 @@ An android application for online food ordering, which provides connection betwe
 <img src="/imgs/tiers.png" height="400" width="750">
 <img src="/imgs/activities.png" height="400" width="750">
 <img src="/imgs/class.png" height="400" width="750">
-<img src="/imgs/class2.png" height="450" width="750">
+<img src="/imgs/class2.png" height="400" width="750">
 
 Database Schema:
-<img src="/imgs/database.png" height="400" width="750">
+<img src="/imgs/database.png" height="450" width="750">
 
 ## My parts:
 
