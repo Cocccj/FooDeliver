@@ -1,6 +1,16 @@
 # FooDeliver
 An android application for online food ordering, which provides connection between online/physical restaurants and consumers. 
 
+## Our Design:
+
+<img src="/imgs/tiers.png" height="400" width="750">
+<img src="/imgs/activities.png" height="400" width="750">
+<img src="/imgs/class.png" height="400" width="750">
+<img src="/imgs/class2.png" height="400" width="750">
+
+Database Schema:
+<img src="/imgs/database.png" height="400" width="750">
+
 ## My parts:
 
 1. Implemented Customer UI classes
