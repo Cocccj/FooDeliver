@@ -90,5 +90,3 @@ Customers can click one restaurant in the list to go to the place order page.
 
 <img src="/imgs/9.png" height="370" width="250">
 
-
-There is also a pdf file to show our project design and implementation.
