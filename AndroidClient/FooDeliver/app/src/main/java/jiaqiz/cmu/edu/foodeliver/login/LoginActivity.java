@@ -15,7 +15,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-
 import jiaqiz.cmu.edu.foodeliver.R;
 import jiaqiz.cmu.edu.foodeliver.customerui.CustomerActivity;
 import jiaqiz.cmu.edu.foodeliver.exception.ConnectionException;
@@ -102,31 +101,43 @@ public class LoginActivity extends AppCompatActivity {
         }
         protected void onPostExecute(String sql) throws SecurityException {
             String[] results = sql.split(":");
+            
             if (results[0].trim().equals(passwordTextView.getText().toString())) {
+                
                 if (results[1].trim().equals("Restaurant")) {
+                    
                     Intent intent = new Intent(getApplicationContext(), RestaurantActivity.class);
                     intent.putExtra("restaurant_email", emailTextView.getText().toString());
                     startActivity(intent);
-                } else {
+                } 
+                
+                else {
                     Intent intent = new Intent(getApplicationContext(), CustomerActivity.class);
                     intent.putExtra("customer_email", emailTextView.getText().toString());
                     intent.putExtra("location", getLocation());
                     startActivity(intent);
                 }
-            } else {
+            } 
+            
+            else {
                 Toast.makeText(LoginActivity.this,
                         "Sorry, we could not find an account for this email address.", Toast.LENGTH_LONG).show();
             }
         }
         private String search(String sql) {
-            String[] sqls = sql.split(":");
-            String results = "";
+            
+            String[] sqls = sql.split(":"); // Splits the results by a colon
+            String results = ""; // Empty string of results initially
+            
             try {
                 results = Client.readData(sqls[0]);
-            } catch (ConnectionException e) {
+            } 
+            
+            catch (ConnectionException e) {
                 e.printStackTrace();
             }
-            return results + ":" + sqls[1];
+            
+            return results + ":" + sqls[1]; // Returns the search results
         }
     }
 
@@ -153,10 +164,12 @@ public class LoginActivity extends AppCompatActivity {
         int choice = 0;
         double minDistance = distance[0];
         for (int i = 1; i < 4; i++) {
+            
             if (distance[i] < minDistance) {
                 choice = i;
             }
         }
+        
         return location[choice];
     }
 }
